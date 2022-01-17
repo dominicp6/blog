@@ -22,7 +22,7 @@ publishDir = "docs"
 [params.index]
   picture = "/images/brain.jpg"
   title = "The Humble Scientists"
-  subtitle = "A blog musings in AI-based drug discovery and other somewhat sciency things"
+  subtitle = "Musings in AI-based drug discovery and other somewhat sciency things"
   mdtext = '''
 '''
   alertbar = false
