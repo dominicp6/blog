@@ -21,8 +21,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: dominicp6/TheHumbleScientist
-          publish_dir: ./public
+          external_repository: dominicp6/TheHumbleScientists
+          publish_dir: ./docs
           #   keep_files: true
           user_name: dominicp6
           user_email: dom.phillips97@gmail.com
