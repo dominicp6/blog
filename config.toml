@@ -1,32 +1,29 @@
 baseURL = "https://dominicp6.github.io/TheHumbleScientists/"
 languageCode = "en-us"
-title = "Mediumish"
+title = "The Humble Scientists"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = "The Humble Scientists - All rights reserved"
 enableEmoji = true
 publishDir = "docs"
 #disqusShortname = "your-shortname-here"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
-  logo = "/images/logo.png"
-  description ="the clean blog!"
+  logo = "/images/brain.jpg"
+  description ="Musings of humble PhD students"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
-  name = "John Doe"
-  thumbnail = "/images/author.png"
-  description = "Creator of this blog."
+  name = "The Humble Scientists"
+  thumbnail = "/images/brain.jpg"
+  description = ""
 
 [params.index]
-  picture = "/images/author.png"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  picture = "/images/brain.jpg"
+  title = "The Humble Scientists"
+  subtitle = "A blog musings in AI-based drug discovery and other somewhat sciency things"
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
 '''
   alertbar = false
 
@@ -45,12 +42,7 @@ Currently trying to get this blog running, still don't know what the blog will b
     identifier = "blog"
     url = "/blog"
 [[menu.main]]
-    name = "About Me"
+    name = "About"
     identifier = "about"
     weight = 200
     url = "/"
-[[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
