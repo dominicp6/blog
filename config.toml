@@ -11,7 +11,7 @@ publishDir = "docs"
 
 [params]
   logo = "/images/brain.jpg"
-  description ="Musings of humble PhD students"
+  description ="Musings in AI-based drug discovery and other somewhat sciency things"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
